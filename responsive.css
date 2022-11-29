@@ -1,0 +1,296 @@
+ /* @media (max-width:947px){ */
+ /* @media (max-width:767px){  /*(for Smartphones) */
+ /* @media (max-width:1023px){ /*(for Tablets)     */
+ /* @media (min-width:1024px){ /*(for Destop)      */
+    @media (max-width:468px) {
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+   
+        /* Navbar header */
+        .navbar {
+            width: 100%;
+            position: sticky;
+        }
+   
+        .logo {
+            display: flex;
+   
+        }
+   
+        .navbar .logo a {
+            /* position: relative; */
+            left: 122px;
+            /* display: flex;
+            align-items: flex-start; */
+        }
+   
+        .navbar img {
+            /* position: absolute; */
+            /* left: 26%; */
+        }
+   
+        .navbar .menu {
+            width: 100%;
+            display: none;
+        }
+   
+        .navbar .menu li {
+            display: block;
+        }
+   
+        .navbar .menu li a {
+            display: inline-block;
+            margin: 20px 0;
+            font-size: 25px;
+        }
+   
+        /* Start of Home page */
+        .home {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+   
+   
+        .home .max-width {
+            /* margin-left: -49px; */
+            padding: 0 10px;
+            margin-left: 0;
+        }
+   
+        .home .home-content .text-1 {
+            font-size: 22px;
+        }
+   
+        .home .home-content .text-2 {
+           font-size: 29px;
+            font-weight: 400;
+        }
+   
+        .home .home-content .text-2 span {
+            color: yellow;
+        }
+   
+        /* End of Home page */
+   
+   
+   
+        /* Start of About Me page  */
+        .bgcolorabout {
+            width: 100%;
+        }
+   
+        .h1 {
+            display: flex;
+            font-size: medium;
+        }
+   
+        .right {
+            height: 68vh;
+            width: 360px;
+            display: block;
+            margin: auto;
+            font-size: smaller;
+        }
+   
+        .photo {
+            width: 100px;
+            display: block;
+            margin-left: 130px;
+            margin-top: 20px;
+            box-shadow: 0 5px 25px rgb(177, 177, 103);
+        }
+   
+        .photo:hover {
+            transform: scale(1.2);
+            box-shadow: 0 8px 20px rgb(177, 177, 103);
+        }
+   
+   
+        .paras {
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-top: 50px;
+            font-size: small;
+        }
+   
+        .resume button {
+            width: 200px;
+            height: 60px;
+            margin-left: 75px;
+            margin-top: 20px;
+            box-shadow: 0 5px 25px rgb(177, 177, 103);
+            font-size: x-small;
+        }
+   
+        button:hover {
+            transform: scale(1.2);
+            box-shadow: 0 8px 20px rgb(177, 177, 103);
+        }
+   
+   
+        /* End of About Us page */
+   
+   
+   
+        /*  Start of Services page */
+        .bgservices {
+            width: 100%;
+            padding-top: 118px;
+        }
+   
+        .services {
+            display: flex;
+            font-size: medium;
+        }
+   
+        .textS {
+            font-size: small;
+            padding: 25px 50px 25px 14px;
+            display: flow-root;
+        }
+   
+        .textS1 {
+            font-size: small;
+            display: inline-flex;
+        }
+   
+        .controlscard {
+            display: grid;
+            margin: 0px;
+        }
+   
+        .cardhtml {
+            padding: 0px;
+            height: 210px;
+            width: 160px;
+            font-size: small;
+            margin: 5px;
+        }
+   
+        .cardjavascript {
+            padding: 0px;
+            height: 210px;
+            width: 160px;
+            font-size: small;
+            margin: 5px;
+            ;
+        }
+   
+        .cardcss {
+            padding: 0px;
+            height: 210px;
+            width: 160px;
+            font-size: small;
+            margin: 5px;
+        }
+   
+        .larawell {
+            padding: 0px;
+            height: 210px;
+            width: 160px;
+            font-size: small;
+            margin: 5px;
+        }
+   
+        .apart {
+            display: grid;
+            margin: 0px;
+        }
+   
+        .cardphp {
+            padding: 0px;
+            height: 210px;
+            width: 160px;
+            font-size: small;
+            margin: 5px;
+        }
+   
+        .cardmysql {
+            padding: 0px;
+            height: 210px;
+            width: 160px;
+            font-size: small;
+            margin: 5px;
+        }
+   
+        .cardbootstrap {
+            padding: 0px;
+            height: 210px;
+            width: 160px;
+            font-size: small;
+            margin: 5px;
+        }
+   
+        .adobephotoshop {
+            padding: 0px;
+            height: 210px;
+            width: 160px;
+            font-size: small;
+            margin: 5px;
+        }
+   
+        .total_crds {
+            display: flex;
+            position: relative;
+            justify-content: center;
+        }
+   
+        /* end of services page */
+   
+   
+        /* Start of skills page */
+   
+        .skills h1 {
+            font-size: medium;
+        }
+   
+        .skills {
+            height: 100%;
+            width: 100%;
+        }
+   
+        .skills-bar {
+            width: 84%;
+            font-size: small;
+            height: 90%;
+        }
+   
+        .skills-bar .bar .info span {
+            font-size: small;
+        }
+   
+        .bar .progress-line span::after {
+            padding: 0px 8px;
+        }
+   
+        /* end of Skills Page */
+   
+   
+        /* Start of contact page */
+        .contact {
+            padding: 0px;
+            height: 196vh;
+            padding-top: 80px;
+        }
+   
+        .contact .content h1 {
+            font-size: medium;
+        }
+   
+        .container {
+            flex-direction: column;
+            display: grid;
+            justify-content: center;
+            font-size: small;
+        }
+   
+        .contactform {
+            width: 100%;
+        }
+   
+        /* end od contact page */
+    }
